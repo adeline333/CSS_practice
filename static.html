@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Positioning Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .box {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 150px;
+            border: 2px solid #007bff;
+        }
+
+        .box-1 {
+            position: static; /* Static is the default */
+        }
+
+        .box-2 {
+            position: sticky; /* Static is the default */
+        }
+
+        .box-3 {
+            position: static; /* Static is the default */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box box-1">Box 1</div>
+    <div class="box box-2">Box 2</div>
+    <div class="box box-3">Box 3</div>
+
+    <p>All boxes have static positioning. Try changing the position property in the CSS to see the differences.</p>
+
+</body>
+</html>
